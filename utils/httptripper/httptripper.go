@@ -26,8 +26,8 @@ import (
 	"time"
 
 	"github.com/afex/hystrix-go/hystrix"
-	"github.com/carousell/Orion/utils/httptripper/retry"
-	"github.com/carousell/Orion/utils/spanutils"
+	"github.com/go-orion/Orion/utils/httptripper/retry"
+	"github.com/go-orion/Orion/utils/spanutils"
 )
 
 var (

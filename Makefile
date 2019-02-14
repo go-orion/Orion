@@ -41,7 +41,7 @@ doc:
 
 update:
 	govendor fetch -v +vendor
-	go get -u github.com/carousell/Orion/protoc-gen-orion
+	go get -u github.com/go-orion/Orion/protoc-gen-orion
 
 run:
 	exec ./run.sh
@@ -60,7 +60,7 @@ goinstall:
 	go get -u github.com/golang/lint/golint
 	go get -u google.golang.org/grpc
 	go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
-	go get -u github.com/carousell/Orion/protoc-gen-orion
+	go get -u github.com/go-orion/Orion/protoc-gen-orion
 
 macinstall:
 	brew install protobuf

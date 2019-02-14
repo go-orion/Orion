@@ -1,5 +1,5 @@
 # strategy
-`import "github.com/carousell/Orion/utils/httptripper/strategy"`
+`import "github.com/go-orion/Orion/utils/httptripper/strategy"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

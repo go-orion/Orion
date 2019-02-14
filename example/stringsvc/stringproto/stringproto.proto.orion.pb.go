@@ -4,10 +4,10 @@
 package stringproto
 
 import (
-	orion "github.com/carousell/Orion/orion"
+	orion "github.com/go-orion/Orion/orion"
 )
 
-// If you see error please update your orion-protoc-gen by running 'go get -u github.com/carousell/Orion/protoc-gen-orion'
+// If you see error please update your orion-protoc-gen by running 'go get -u github.com/go-orion/Orion/protoc-gen-orion'
 var _ = orion.ProtoGenVersion1_0
 
 // Encoders

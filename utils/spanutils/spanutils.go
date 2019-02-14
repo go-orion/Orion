@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/carousell/Orion/utils"
-	"github.com/carousell/Orion/utils/log"
+	"github.com/go-orion/Orion/utils"
+	"github.com/go-orion/Orion/utils/log"
 	newrelic "github.com/newrelic/go-agent"
 	opentracing "github.com/opentracing/opentracing-go"
 	otext "github.com/opentracing/opentracing-go/ext"

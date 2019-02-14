@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/carousell/Orion/example/stringsvc/service"
-	proto "github.com/carousell/Orion/example/stringsvc/stringproto"
-	"github.com/carousell/Orion/orion"
+	"github.com/go-orion/Orion/example/stringsvc/service"
+	proto "github.com/go-orion/Orion/example/stringsvc/stringproto"
+	"github.com/go-orion/Orion/orion"
 )
 
 func main() {

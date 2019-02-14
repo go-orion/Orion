@@ -11,12 +11,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/carousell/Orion/orion/handlers"
-	grpcHandler "github.com/carousell/Orion/orion/handlers/grpc"
-	"github.com/carousell/Orion/orion/handlers/http"
-	"github.com/carousell/Orion/utils/errors/notifier"
-	"github.com/carousell/Orion/utils/listenerutils"
-	"github.com/carousell/Orion/utils/log"
+	"github.com/go-orion/Orion/orion/handlers"
+	grpcHandler "github.com/go-orion/Orion/orion/handlers/grpc"
+	"github.com/go-orion/Orion/orion/handlers/http"
+	"github.com/go-orion/Orion/utils/errors/notifier"
+	"github.com/go-orion/Orion/utils/listenerutils"
+	"github.com/go-orion/Orion/utils/log"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
 )

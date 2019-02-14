@@ -1,5 +1,5 @@
 # loggers
-`import "github.com/carousell/Orion/utils/log/loggers"`
+`import "github.com/go-orion/Orion/utils/log/loggers"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

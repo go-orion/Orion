@@ -1,5 +1,5 @@
 # httptripper
-`import "github.com/carousell/Orion/utils/httptripper"`
+`import "github.com/go-orion/Orion/utils/httptripper"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -26,8 +26,8 @@ Make sure you use httptripper.NewRequest to build http.Request, since http.NewRe
 ## <a name="pkg-imports">Imported Packages</a>
 
 - [github.com/afex/hystrix-go/hystrix](https://godoc.org/github.com/afex/hystrix-go/hystrix)
-- [github.com/carousell/Orion/utils/httptripper/retry](./retry)
-- [github.com/carousell/Orion/utils/spanutils](./../spanutils)
+- [github.com/go-orion/Orion/utils/httptripper/retry](./retry)
+- [github.com/go-orion/Orion/utils/spanutils](./../spanutils)
 
 ## <a name="pkg-index">Index</a>
 * [func GetRequestRetrier(req \*http.Request) retry.Retriable](#GetRequestRetrier)

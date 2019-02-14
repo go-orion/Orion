@@ -1,5 +1,5 @@
 # worker
-`import "github.com/carousell/Orion/utils/worker"`
+`import "github.com/go-orion/Orion/utils/worker"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -12,9 +12,9 @@
 - [github.com/RichardKnop/machinery/v1](https://godoc.org/github.com/RichardKnop/machinery/v1)
 - [github.com/RichardKnop/machinery/v1/config](https://godoc.org/github.com/RichardKnop/machinery/v1/config)
 - [github.com/RichardKnop/machinery/v1/tasks](https://godoc.org/github.com/RichardKnop/machinery/v1/tasks)
-- [github.com/carousell/Orion/utils/errors](./../errors)
-- [github.com/carousell/Orion/utils/log](./../log)
-- [github.com/carousell/Orion/utils/spanutils](./../spanutils)
+- [github.com/go-orion/Orion/utils/errors](./../errors)
+- [github.com/go-orion/Orion/utils/log](./../log)
+- [github.com/go-orion/Orion/utils/spanutils](./../spanutils)
 - [github.com/grpc-ecosystem/go-grpc-middleware/util/metautils](https://godoc.org/github.com/grpc-ecosystem/go-grpc-middleware/util/metautils)
 - [github.com/opentracing/opentracing-go](https://godoc.org/github.com/opentracing/opentracing-go)
 - [github.com/opentracing/opentracing-go/ext](https://godoc.org/github.com/opentracing/opentracing-go/ext)

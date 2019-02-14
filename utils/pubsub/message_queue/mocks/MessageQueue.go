@@ -2,7 +2,7 @@
 package mocks
 
 import context "context"
-import message_queue "github.com/carousell/Orion/utils/pubsub/message_queue"
+import message_queue "github.com/go-orion/Orion/utils/pubsub/message_queue"
 import mock "github.com/stretchr/testify/mock"
 import pubsub "cloud.google.com/go/pubsub"
 

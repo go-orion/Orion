@@ -1,5 +1,5 @@
 # logrus
-`import "github.com/carousell/Orion/utils/log/loggers/logrus"`
+`import "github.com/go-orion/Orion/utils/log/loggers/logrus"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -10,7 +10,7 @@ Package logrus provides a BaseLogger implementation for logrus
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils/log/loggers](./..)
+- [github.com/go-orion/Orion/utils/log/loggers](./..)
 - [github.com/sirupsen/logrus](https://godoc.org/github.com/sirupsen/logrus)
 
 ## <a name="pkg-index">Index</a>

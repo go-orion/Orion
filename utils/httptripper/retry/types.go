@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/carousell/Orion/utils/httptripper/strategy"
+	"github.com/go-orion/Orion/utils/httptripper/strategy"
 )
 
 //Retriable is the interface implemented by a retrier

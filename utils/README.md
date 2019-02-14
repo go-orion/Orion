@@ -1,5 +1,5 @@
 # utils
-`import "github.com/carousell/Orion/utils"`
+`import "github.com/go-orion/Orion/utils"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -9,7 +9,7 @@
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils/log](./log)
+- [github.com/go-orion/Orion/utils/log](./log)
 - [github.com/newrelic/go-agent](https://godoc.org/github.com/newrelic/go-agent)
 
 ## <a name="pkg-index">Index</a>

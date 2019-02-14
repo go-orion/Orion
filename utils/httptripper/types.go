@@ -3,7 +3,7 @@ package httptripper
 import (
 	"net/http"
 
-	"github.com/carousell/Orion/utils/httptripper/retry"
+	"github.com/go-orion/Orion/utils/httptripper/retry"
 )
 
 type key string

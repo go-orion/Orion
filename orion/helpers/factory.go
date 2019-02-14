@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/carousell/Orion/orion"
+	"github.com/go-orion/Orion/orion"
 )
 
 type svcInfo struct {

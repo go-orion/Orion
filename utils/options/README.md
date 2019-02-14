@@ -1,5 +1,5 @@
 # options
-`import "github.com/carousell/Orion/utils/options"`
+`import "github.com/go-orion/Orion/utils/options"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

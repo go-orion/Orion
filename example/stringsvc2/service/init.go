@@ -3,7 +3,7 @@ package service
 import (
 	"strings"
 
-	"github.com/carousell/Orion/orion"
+	"github.com/go-orion/Orion/orion"
 	"github.com/mitchellh/mapstructure"
 )
 

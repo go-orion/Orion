@@ -3,7 +3,7 @@ package log
 import (
 	"context"
 
-	"github.com/carousell/Orion/utils/log/loggers"
+	"github.com/go-orion/Orion/utils/log/loggers"
 )
 
 //SetLevel sets the log level to filter logs

@@ -1,5 +1,5 @@
 # interceptors
-`import "github.com/carousell/Orion/interceptors"`
+`import "github.com/go-orion/Orion/interceptors"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -10,12 +10,12 @@
 ## <a name="pkg-imports">Imported Packages</a>
 
 - [github.com/afex/hystrix-go/hystrix](https://godoc.org/github.com/afex/hystrix-go/hystrix)
-- [github.com/carousell/Orion/orion/modifiers](./../orion/modifiers)
-- [github.com/carousell/Orion/utils](./../utils)
-- [github.com/carousell/Orion/utils/errors](./../utils/errors)
-- [github.com/carousell/Orion/utils/errors/notifier](./../utils/errors/notifier)
-- [github.com/carousell/Orion/utils/log](./../utils/log)
-- [github.com/carousell/Orion/utils/log/loggers](./../utils/log/loggers)
+- [github.com/go-orion/Orion/orion/modifiers](./../orion/modifiers)
+- [github.com/go-orion/Orion/utils](./../utils)
+- [github.com/go-orion/Orion/utils/errors](./../utils/errors)
+- [github.com/go-orion/Orion/utils/errors/notifier](./../utils/errors/notifier)
+- [github.com/go-orion/Orion/utils/log](./../utils/log)
+- [github.com/go-orion/Orion/utils/log/loggers](./../utils/log/loggers)
 - [github.com/grpc-ecosystem/go-grpc-middleware](https://godoc.org/github.com/grpc-ecosystem/go-grpc-middleware)
 - [github.com/grpc-ecosystem/go-grpc-middleware/tags](https://godoc.org/github.com/grpc-ecosystem/go-grpc-middleware/tags)
 - [github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing](https://godoc.org/github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing)

@@ -1,5 +1,5 @@
 # executor
-`import "github.com/carousell/Orion/utils/executor"`
+`import "github.com/go-orion/Orion/utils/executor"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

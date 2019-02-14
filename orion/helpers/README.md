@@ -1,5 +1,5 @@
 # helpers
-`import "github.com/carousell/Orion/orion/helpers"`
+`import "github.com/go-orion/Orion/orion/helpers"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -10,7 +10,7 @@ package helpers contains helper that services can use
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/orion](./..)
+- [github.com/go-orion/Orion/orion](./..)
 
 ## <a name="pkg-index">Index</a>
 * [func NewSingleServiceFactory(sf interface{}) (orion.ServiceFactoryV2, error)](#NewSingleServiceFactory)

@@ -1,5 +1,5 @@
 # log
-`import "github.com/carousell/Orion/utils/log"`
+`import "github.com/go-orion/Orion/utils/log"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -36,8 +36,8 @@ Orion also generates a 'trace' ID per request, this can be used to trace an enti
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils/log/loggers](./loggers)
-- [github.com/carousell/Orion/utils/log/loggers/gokit](./loggers/gokit)
+- [github.com/go-orion/Orion/utils/log/loggers](./loggers)
+- [github.com/go-orion/Orion/utils/log/loggers/gokit](./loggers/gokit)
 
 ## <a name="pkg-index">Index</a>
 * [func Debug(ctx context.Context, args ...interface{})](#Debug)

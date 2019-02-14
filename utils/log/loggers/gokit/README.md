@@ -1,5 +1,5 @@
 # gokit
-`import "github.com/carousell/Orion/utils/log/loggers/gokit"`
+`import "github.com/go-orion/Orion/utils/log/loggers/gokit"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -10,7 +10,7 @@ Package gokit provides BaseLogger implementation for go-kit/log
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils/log/loggers](./..)
+- [github.com/go-orion/Orion/utils/log/loggers](./..)
 - [github.com/go-kit/kit/log](https://godoc.org/github.com/go-kit/kit/log)
 
 ## <a name="pkg-index">Index</a>

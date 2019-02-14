@@ -4,13 +4,13 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/carousell/Orion/interceptors"
-	"github.com/carousell/Orion/orion/modifiers"
-	"github.com/carousell/Orion/utils/errors"
-	"github.com/carousell/Orion/utils/errors/notifier"
-	"github.com/carousell/Orion/utils/log"
-	"github.com/carousell/Orion/utils/log/loggers"
-	"github.com/carousell/Orion/utils/options"
+	"github.com/go-orion/Orion/interceptors"
+	"github.com/go-orion/Orion/orion/modifiers"
+	"github.com/go-orion/Orion/utils/errors"
+	"github.com/go-orion/Orion/utils/errors/notifier"
+	"github.com/go-orion/Orion/utils/log"
+	"github.com/go-orion/Orion/utils/log/loggers"
+	"github.com/go-orion/Orion/utils/options"
 	"google.golang.org/grpc"
 )
 

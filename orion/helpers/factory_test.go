@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/carousell/Orion/orion"
+	"github.com/go-orion/Orion/orion"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/carousell/Orion/utils/log"
+	"github.com/go-orion/Orion/utils/log"
 	newrelic "github.com/newrelic/go-agent"
 )
 

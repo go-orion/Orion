@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/carousell/Orion/utils/log"
+	"github.com/go-orion/Orion/utils/log"
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/satori/go.uuid"

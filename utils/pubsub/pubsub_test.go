@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/mock"
 
 	goPubSub "cloud.google.com/go/pubsub"
-	"github.com/carousell/Orion/utils/executor"
-	"github.com/carousell/Orion/utils/pubsub/message_queue"
-	mockMessageQueue "github.com/carousell/Orion/utils/pubsub/message_queue/mocks"
+	"github.com/go-orion/Orion/utils/executor"
+	"github.com/go-orion/Orion/utils/pubsub/message_queue"
+	mockMessageQueue "github.com/go-orion/Orion/utils/pubsub/message_queue/mocks"
 )
 
 const (

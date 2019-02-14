@@ -6,9 +6,9 @@ import (
 	"github.com/RichardKnop/machinery/v1"
 	machineryConfig "github.com/RichardKnop/machinery/v1/config"
 	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/carousell/Orion/utils/errors"
-	"github.com/carousell/Orion/utils/log"
-	"github.com/carousell/Orion/utils/spanutils"
+	"github.com/go-orion/Orion/utils/errors"
+	"github.com/go-orion/Orion/utils/log"
+	"github.com/go-orion/Orion/utils/spanutils"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 )

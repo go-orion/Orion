@@ -1,5 +1,5 @@
 # handlers
-`import "github.com/carousell/Orion/orion/handlers"`
+`import "github.com/go-orion/Orion/orion/handlers"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -9,13 +9,13 @@
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/interceptors](./../../interceptors)
-- [github.com/carousell/Orion/orion/modifiers](./../modifiers)
-- [github.com/carousell/Orion/utils/errors](./../../utils/errors)
-- [github.com/carousell/Orion/utils/errors/notifier](./../../utils/errors/notifier)
-- [github.com/carousell/Orion/utils/log](./../../utils/log)
-- [github.com/carousell/Orion/utils/log/loggers](./../../utils/log/loggers)
-- [github.com/carousell/Orion/utils/options](./../../utils/options)
+- [github.com/go-orion/Orion/interceptors](./../../interceptors)
+- [github.com/go-orion/Orion/orion/modifiers](./../modifiers)
+- [github.com/go-orion/Orion/utils/errors](./../../utils/errors)
+- [github.com/go-orion/Orion/utils/errors/notifier](./../../utils/errors/notifier)
+- [github.com/go-orion/Orion/utils/log](./../../utils/log)
+- [github.com/go-orion/Orion/utils/log/loggers](./../../utils/log/loggers)
+- [github.com/go-orion/Orion/utils/options](./../../utils/options)
 - [google.golang.org/grpc](https://godoc.org/google.golang.org/grpc)
 
 ## <a name="pkg-index">Index</a>

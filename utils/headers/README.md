@@ -1,5 +1,5 @@
 # headers
-`import "github.com/carousell/Orion/utils/headers"`
+`import "github.com/go-orion/Orion/utils/headers"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

@@ -1,5 +1,5 @@
 # spanutils
-`import "github.com/carousell/Orion/utils/spanutils"`
+`import "github.com/go-orion/Orion/utils/spanutils"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -9,8 +9,8 @@
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils](./..)
-- [github.com/carousell/Orion/utils/log](./../log)
+- [github.com/go-orion/Orion/utils](./..)
+- [github.com/go-orion/Orion/utils/log](./../log)
 - [github.com/newrelic/go-agent](https://godoc.org/github.com/newrelic/go-agent)
 - [github.com/opentracing/opentracing-go](https://godoc.org/github.com/opentracing/opentracing-go)
 - [github.com/opentracing/opentracing-go/ext](https://godoc.org/github.com/opentracing/opentracing-go/ext)

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/carousell/Orion/orion/handlers"
-	"github.com/carousell/Orion/orion/modifiers"
+	"github.com/go-orion/Orion/orion/handlers"
+	"github.com/go-orion/Orion/orion/modifiers"
 	"github.com/golang/protobuf/jsonpb"
 	"google.golang.org/grpc"
 )

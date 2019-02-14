@@ -1,5 +1,5 @@
 # listenerutils
-`import "github.com/carousell/Orion/utils/listenerutils"`
+`import "github.com/go-orion/Orion/utils/listenerutils"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -9,7 +9,7 @@
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils/log](./../log)
+- [github.com/go-orion/Orion/utils/log](./../log)
 
 ## <a name="pkg-index">Index</a>
 * [type CustomListener](#CustomListener)

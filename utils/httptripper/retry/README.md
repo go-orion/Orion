@@ -1,5 +1,5 @@
 # retry
-`import "github.com/carousell/Orion/utils/httptripper/retry"`
+`import "github.com/go-orion/Orion/utils/httptripper/retry"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -10,7 +10,7 @@ Package retry provides an implementation for retrying http requests with multipl
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils/httptripper/strategy](./../strategy)
+- [github.com/go-orion/Orion/utils/httptripper/strategy](./../strategy)
 
 ## <a name="pkg-index">Index</a>
 * [type Option](#Option)

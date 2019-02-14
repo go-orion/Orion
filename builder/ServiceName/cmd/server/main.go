@@ -1,9 +1,9 @@
 package main
 
 import (
-	proto "github.com/carousell/Orion/builder/ServiceName/ServiceName_proto"
-	"github.com/carousell/Orion/builder/ServiceName/service"
-	"github.com/carousell/Orion/orion"
+	proto "github.com/go-orion/Orion/builder/ServiceName/ServiceName_proto"
+	"github.com/go-orion/Orion/builder/ServiceName/service"
+	"github.com/go-orion/Orion/orion"
 )
 
 func main() {

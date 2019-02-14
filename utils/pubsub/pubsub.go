@@ -6,10 +6,10 @@ import (
 
 	goPubSub "cloud.google.com/go/pubsub"
 	"github.com/afex/hystrix-go/hystrix"
-	"github.com/carousell/Orion/utils/executor"
-	"github.com/carousell/Orion/utils/log"
-	messageQueue "github.com/carousell/Orion/utils/pubsub/message_queue"
-	"github.com/carousell/Orion/utils/spanutils"
+	"github.com/go-orion/Orion/utils/executor"
+	"github.com/go-orion/Orion/utils/log"
+	messageQueue "github.com/go-orion/Orion/utils/pubsub/message_queue"
+	"github.com/go-orion/Orion/utils/spanutils"
 )
 
 //Config is the config for pubsub

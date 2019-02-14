@@ -1,4 +1,4 @@
-# Orion-Builder [![Build Status](https://travis-ci.com/carousell/Orion-Builder.svg?token=kSVweyyqayUyyfutjTqD&branch=master)](https://travis-ci.com/carousell/Orion-Builder)
+# Orion-Builder [![Build Status](https://travis-ci.com/go-orion/Orion-Builder.svg?token=kSVweyyqayUyyfutjTqD&branch=master)](https://travis-ci.com/go-orion/Orion-Builder)
 
 ## Setup Instructions
 Orion-Builder is written in golang, please follow instructions on [https://golang.org/doc/install](https://golang.org/doc/install) to install, or you can also run
@@ -34,7 +34,7 @@ go get -u github.com/shurcooL/Go-Package-Store/cmd/Go-Package-Store
 now clone this repo
 ```
 mkdir -p $GOPATH/src/github.com/carousell/
-git clone git@github.com:carousell/Orion-Builder.git $GOPATH/src/github.com/carousell/Orion-Builder
+git clone git@github.com:go-orion/Orion-Builder.git $GOPATH/src/github.com/go-orion/Orion-Builder
 ```
 
 You need the following tools to better develop for go
@@ -64,7 +64,7 @@ go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
 
 install the protoc plugin for orion
 ```
-go get -u github.com/carousell/Orion/protoc-gen-orion
+go get -u github.com/go-orion/Orion/protoc-gen-orion
 ```
 
 ## Creating Service

@@ -9,11 +9,11 @@ import (
 	"strings"
 
 	bugsnag "github.com/bugsnag/bugsnag-go"
-	"github.com/carousell/Orion/utils/errors"
+	"github.com/go-orion/Orion/utils/errors"
 
-	"github.com/carousell/Orion/utils/log"
-	"github.com/carousell/Orion/utils/log/loggers"
-	"github.com/carousell/Orion/utils/options"
+	"github.com/go-orion/Orion/utils/log"
+	"github.com/go-orion/Orion/utils/log/loggers"
+	"github.com/go-orion/Orion/utils/options"
 	raven "github.com/getsentry/raven-go"
 	stdopentracing "github.com/opentracing/opentracing-go"
 	"github.com/pborman/uuid"

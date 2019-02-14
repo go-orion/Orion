@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/carousell/Orion/utils/log/loggers"
-	"github.com/carousell/Orion/utils/log/loggers/gokit"
+	"github.com/go-orion/Orion/utils/log/loggers"
+	"github.com/go-orion/Orion/utils/log/loggers/gokit"
 )
 
 var (

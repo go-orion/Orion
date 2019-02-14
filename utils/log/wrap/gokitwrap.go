@@ -4,8 +4,8 @@ package wrap
 import (
 	"context"
 
-	"github.com/carousell/Orion/utils/log"
-	"github.com/carousell/Orion/utils/log/loggers"
+	"github.com/go-orion/Orion/utils/log"
+	"github.com/go-orion/Orion/utils/log/loggers"
 
 	basegokit "github.com/go-kit/kit/log"
 )

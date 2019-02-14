@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/carousell/Orion/orion/handlers"
-	"github.com/carousell/Orion/utils/log"
+	"github.com/go-orion/Orion/orion/handlers"
+	"github.com/go-orion/Orion/utils/log"
 	"github.com/gorilla/mux"
 	"google.golang.org/grpc"
 )

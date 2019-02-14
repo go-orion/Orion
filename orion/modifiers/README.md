@@ -1,5 +1,5 @@
 # modifiers
-`import "github.com/carousell/Orion/orion/modifiers"`
+`import "github.com/go-orion/Orion/orion/modifiers"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -9,7 +9,7 @@
 
 ## <a name="pkg-imports">Imported Packages</a>
 
-- [github.com/carousell/Orion/utils/options](./../../utils/options)
+- [github.com/go-orion/Orion/utils/options](./../../utils/options)
 
 ## <a name="pkg-index">Index</a>
 * [Constants](#pkg-constants)

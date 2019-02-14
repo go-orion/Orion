@@ -1,11 +1,11 @@
-# Orion [![Build Status](https://travis-ci.com/carousell/Orion.svg?token=kSVweyyqayUyyfutjTqD&branch=master)](https://travis-ci.com/carousell/Orion) [![Go Report Card](https://goreportcard.com/badge/github.com/carousell/Orion)](https://goreportcard.com/report/github.com/carousell/Orion) [![GoDoc](https://godoc.org/github.com/carousell/Orion/orion?status.svg)](https://godoc.org/github.com/carousell/Orion/orion)
+# Orion [![Build Status](https://travis-ci.com/go-orion/Orion.svg?token=kSVweyyqayUyyfutjTqD&branch=master)](https://travis-ci.com/go-orion/Orion) [![Go Report Card](https://goreportcard.com/badge/github.com/go-orion/Orion)](https://goreportcard.com/report/github.com/go-orion/Orion) [![GoDoc](https://godoc.org/github.com/go-orion/Orion/orion?status.svg)](https://godoc.org/github.com/go-orion/Orion/orion)
 
 Orion is a small lightweight framework written around grpc/protobuf with the aim to shorten time to build microservices at Carousell.
 
 It is derived from 'Framework' a small microservices framework written and used inside https://carousell.com, It comes with a number of sensible defaults such as zipkin tracing, hystrix, live reload of configuration, etc.
 
 ## Getting Started
-Follow the guide at https://github.com/carousell/Orion/blob/master/orion/README.md
+Follow the guide at https://github.com/go-orion/Orion/blob/master/orion/README.md
 
 ## Setup Instructions
 Orion is written in golang, please follow instructions on [https://golang.org/doc/install](https://golang.org/doc/install) to install, or you can also run
@@ -46,7 +46,7 @@ go get -u github.com/shurcooL/Go-Package-Store/cmd/Go-Package-Store
 now clone this repo
 ```
 mkdir -p $GOPATH/src/github.com/carousell/
-git clone git@github.com:carousell/Orion.git $GOPATH/src/github.com/carousell/Orion
+git clone git@github.com:go-orion/Orion.git $GOPATH/src/github.com/go-orion/Orion
 ```
 
 You need the following tools to better develop for go
@@ -76,7 +76,7 @@ go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
 
 install the protoc plugin for orion
 ```
-go get -u github.com/carousell/Orion/protoc-gen-orion
+go get -u github.com/go-orion/Orion/protoc-gen-orion
 ```
 
 ## Project Status
@@ -84,4 +84,4 @@ Orion is in use at production at Carousell and powers multiple (40+) services se
 we ensure all updates are backward compatible unless it involves a major bug or security issue.
 
 ## License
-This code is available under the following https://github.com/carousell/Orion/blob/master/LICENSE
+This code is available under the following https://github.com/go-orion/Orion/blob/master/LICENSE

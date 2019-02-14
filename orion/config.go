@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/afex/hystrix-go/hystrix"
-	"github.com/carousell/Orion/utils/log"
+	"github.com/go-orion/Orion/utils/log"
 	"github.com/spf13/viper"
 )
 

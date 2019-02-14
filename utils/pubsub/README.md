@@ -1,5 +1,5 @@
 # pubsub
-`import "github.com/carousell/Orion/utils/pubsub"`
+`import "github.com/go-orion/Orion/utils/pubsub"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -11,10 +11,10 @@
 
 - [cloud.google.com/go/pubsub](https://godoc.org/cloud.google.com/go/pubsub)
 - [github.com/afex/hystrix-go/hystrix](https://godoc.org/github.com/afex/hystrix-go/hystrix)
-- [github.com/carousell/Orion/utils/executor](./../executor)
-- [github.com/carousell/Orion/utils/log](./../log)
-- [github.com/carousell/Orion/utils/pubsub/message_queue](./message_queue)
-- [github.com/carousell/Orion/utils/spanutils](./../spanutils)
+- [github.com/go-orion/Orion/utils/executor](./../executor)
+- [github.com/go-orion/Orion/utils/log](./../log)
+- [github.com/go-orion/Orion/utils/pubsub/message_queue](./message_queue)
+- [github.com/go-orion/Orion/utils/spanutils](./../spanutils)
 
 ## <a name="pkg-index">Index</a>
 * [type Config](#Config)
