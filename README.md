@@ -45,7 +45,7 @@ go get -u github.com/shurcooL/Go-Package-Store/cmd/Go-Package-Store
 ```
 now clone this repo
 ```
-mkdir -p $GOPATH/src/github.com/carousell/
+mkdir -p $GOPATH/src/github.com/go-orion/
 git clone git@github.com:go-orion/Orion.git $GOPATH/src/github.com/go-orion/Orion
 ```
 
