@@ -52,6 +52,7 @@ func InitRollbar(token, env string) {
 	rollbarInited = true
 }
 
+//InitSentry inits sentry (go-raven)
 func InitSentry(dsn string) {
 	raven.SetDSN(dsn)
 	sentryInited = true
@@ -126,14 +127,17 @@ func parseRawData(ctx context.Context, rawData ...interface{}) map[string]interf
 	return m
 }
 
+//Notify sends error info to the inited notifier
 func Notify(err error, rawData ...interface{}) error {
 	return NotifyWithLevelAndSkip(err, 2, rollbar.ERR, rawData...)
 }
 
+//NotifyWithLevel sends error info to the inited notifier with a specific error level
 func NotifyWithLevel(err error, level string, rawData ...interface{}) error {
 	return NotifyWithLevelAndSkip(err, 2, level, rawData...)
 }
 
+//NotifyWithLevelAndSkip sends error info to the inited notifier with a specific error level and skips number of stack frames
 func NotifyWithLevelAndSkip(err error, skip int, level string, rawData ...interface{}) error {
 	if err == nil {
 		return nil
@@ -267,6 +271,7 @@ func NotifyWithExclude(err error, rawData ...interface{}) error {
 	return err
 }
 
+//NotifyOnPanic notifies about a panic
 func NotifyOnPanic(rawData ...interface{}) {
 	if bugsnagInited {
 		defer bugsnag.AutoNotify(rawData...)
@@ -306,12 +311,14 @@ func NotifyOnPanic(rawData ...interface{}) {
 	}
 }
 
+//Close closes inited notifiers
 func Close() {
 	if airbrake != nil {
 		airbrake.Close()
 	}
 }
 
+//SetEnvironemnt sets the current environment to be reported
 func SetEnvironemnt(env string) {
 	if airbrake != nil {
 		airbrake.AddFilter(func(notice *gobrake.Notice) *gobrake.Notice {
@@ -366,10 +373,12 @@ func UpdateTraceId(ctx context.Context, traceID string) context.Context {
 	return options.AddToOptions(ctx, tracerID, traceID)
 }
 
+//SetServerRoot sets the server root
 func SetServerRoot(path string) {
 	serverRoot = path
 }
 
+//SetHostname sets the hostname to be used
 func SetHostname(name string) {
 	hostname = name
 }

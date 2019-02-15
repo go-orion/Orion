@@ -43,7 +43,7 @@ func (h *httpHandler) httpHandler(resp http.ResponseWriter, req *http.Request, s
 			if e, ok := r.(error); ok {
 				err = e
 			} else {
-				err = errors.New(fmt.Sprintf("panic: %s", r))
+				err = errors.Wrap(fmt.Errorf("panic: %s", r), "PANIC")
 			}
 			utils.FinishNRTransaction(ctx, err)
 			notifier.NotifyWithLevel(err, "critical", req.URL.String(), ctx)
