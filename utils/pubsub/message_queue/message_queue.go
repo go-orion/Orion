@@ -111,7 +111,7 @@ func (pubsubqueue *PubSubQueue) GetResult(ctx context.Context, result *goPubSub.
 	return result.Get(ctx)
 }
 
-//SubscribeFunction recieves messages from a subscription
+//SubscribeFunction receives messages from a subscription
 type SubscribeFunction func(ctx context.Context, msg *goPubSub.Message)
 
 //SubscribeMessages Initales a subscriber call and assigns to given subscriber function

@@ -11,10 +11,10 @@ import (
 	bugsnag "github.com/bugsnag/bugsnag-go"
 	"github.com/go-orion/Orion/utils/errors"
 
+	raven "github.com/getsentry/raven-go"
 	"github.com/go-orion/Orion/utils/log"
 	"github.com/go-orion/Orion/utils/log/loggers"
 	"github.com/go-orion/Orion/utils/options"
-	raven "github.com/getsentry/raven-go"
 	stdopentracing "github.com/opentracing/opentracing-go"
 	"github.com/pborman/uuid"
 	"github.com/stvp/rollbar"
@@ -154,7 +154,7 @@ func doNotify(err error, skip int, level string, rawData ...interface{}) error {
 		return nil
 	}
 
-	// add stack infomation
+	// add stack information
 	errWithStack, ok := err.(errors.ErrorExt)
 	if !ok {
 		errWithStack = errors.WrapWithSkip(err, "", skip+1)

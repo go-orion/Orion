@@ -28,15 +28,15 @@ func (o LogFields) Del(key string) {
 //AddToLogContext adds log fields to context.
 // Any info added here will be added to all logs using this context
 func AddToLogContext(ctx context.Context, key string, value interface{}) context.Context {
+	if ctx == nil {
+		ctx = context.Background()
+	}
 	data := FromContext(ctx)
 	if data == nil {
 		ctx = context.WithValue(ctx, contextKey, make(LogFields))
 		data = FromContext(ctx)
 	}
-	m := ctx.Value(contextKey)
-	if data, ok := m.(LogFields); ok {
-		data.Add(key, value)
-	}
+	data.Add(key, value)
 	return ctx
 }
 

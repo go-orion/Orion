@@ -7,8 +7,8 @@ import (
 	stdlog "log"
 	"os"
 
-	"github.com/go-orion/Orion/utils/log/loggers"
 	"github.com/go-kit/kit/log"
+	"github.com/go-orion/Orion/utils/log/loggers"
 )
 
 type logger struct {
