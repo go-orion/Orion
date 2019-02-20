@@ -12,6 +12,7 @@ import (
 	proto "github.com/go-orion/Orion/example/echo/echo_proto"
 	"github.com/go-orion/Orion/interceptors"
 	"github.com/go-orion/Orion/utils/headers"
+	"github.com/go-orion/Orion/utils/spanutils"
 	"github.com/go-orion/Orion/utils/worker"
 	"github.com/gorilla/mux"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
@@ -76,13 +77,17 @@ func (s *svc) Echo(ctx context.Context, req *proto.EchoRequest) (*proto.EchoResp
 	resp := new(proto.EchoResponse)
 	resp.Msg = s.appendText + req.GetMsg()
 
-	httpClient := &http.Client{}
 	url := "http://127.0.0.1:9282/api/1.0/upper/" + req.GetMsg()
+
+	span, ctx := spanutils.NewExternalSpan(ctx, "upper-call", url)
+
+	httpClient := &http.Client{}
 	httpReq, _ := http.NewRequest("GET", url, nil)
 	httpReq = httpReq.WithContext(ctx)
 
 	//log.Println(httpReq)
 	httpClient.Do(httpReq)
+	span.End()
 
 	r := new(proto.UpperRequest)
 	r.Msg = "hello"
